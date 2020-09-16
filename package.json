@@ -1,0 +1,43 @@
+{
+  "name": "data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jasmine --config=test/spec/support/jasmine.json",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/algo26-matthias/ee-calculator.git"
+  },
+  "keywords": [],
+  "author": "Matthias Sommerfeld",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/algo26-matthias/ee-calculator/issues"
+  },
+  "homepage": "https://github.com/algo26-matthias/ee-calculator#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.0.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "css-loader": "^4.3.0",
+    "file-loader": "^6.1.0",
+    "jasmine-core": "^3.6.0",
+    "jasmine-data-provider": "^2.2.0",
+    "node-sass": "^4.14.1",
+    "postcss-loader": "^4.0.2",
+    "sass-loader": "^10.0.2",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {}
+}

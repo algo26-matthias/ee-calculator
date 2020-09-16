@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+  ee-calculator-node:
+    container_name: ee-calculator-node
+    build:
+      context: .
+      dockerfile: .docker/Dockerfile
+    user: "node"
+    working_dir: /home/node/app
+    environment:
+      - NODE_ENV=dev
+    volumes:
+    - ./:/home/node/app:rw
+    ports:
+      - "8199:8199"

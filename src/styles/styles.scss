@@ -1,0 +1,78 @@
+@import "reset";
+
+body {
+    background: white;
+}
+
+.calculator {
+    width: calc(100% - 16px);
+    margin: auto;
+
+    .calculator_head {
+        height: 48px;
+
+        .calculator_head_logo {
+            width:50%;
+            max-width: 320px;
+            height: 100%;
+            background: transparent url(/equal-experts-logo-colour.png) center left no-repeat;
+            background-size: contain;
+        }
+    }
+
+    .calculator_display {
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f0f9ff+0,cbebff+47,a1dbff+100;Blue+3D+%2313 */
+        background: rgb(240,249,255); /* Old browsers */
+        background: -moz-linear-gradient(-45deg,  rgba(240,249,255,1) 0%, rgba(203,235,255,1) 47%, rgba(161,219,255,1) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg,  rgba(240,249,255,1) 0%,rgba(203,235,255,1) 47%,rgba(161,219,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg,  rgba(240,249,255,1) 0%,rgba(203,235,255,1) 47%,rgba(161,219,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#a1dbff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+        box-shadow: 2px 2px 8px 0 inset darkgray;
+        border-radius: 4px;
+        text-align: right;
+        padding: 8px;
+        font-size: 32px;
+        font-family: monospace;
+    }
+
+    .calculator_buttons {
+        .btn {
+            margin-top: 16px;
+            display: block;
+            width: 100%;
+            height: calc(100% - 16px);
+
+            box-shadow: 1px 1px 4px rgba(255,255,255,0.5) inset, -1px -1px 4px rgba(0,0,0,0.25) inset;
+        }
+    }
+}
+
+@media (min-width: 751px) {
+    body {
+        background: darkgray;
+    }
+    .calculator {
+        width: 640px;
+        margin: 32px auto;
+
+        padding: 8px 12px 16px;
+        border-radius: 16px;
+        background: white;
+        box-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+
+        .calculator_head {
+            height: 75px;
+        }
+
+        .calculator_display {
+            font-size: 48px;
+        }
+
+        .calculator_buttons {
+            .btn {
+                font-size: 24px;
+            }
+        }
+    }
+}
