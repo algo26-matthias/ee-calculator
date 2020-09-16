@@ -1,7 +1,7 @@
 # EE Simple Calculator Demo
 
 This project refers to version 68248247cd23ebffaa256f583e0e4ce05b4a0b86 of your problem description.
-Go to https://algo26-matthias.github.io/ee-calculator/ for the final result.
+Go to https://algo26.de/demo/ee-calculator/ to see a snapshot of the end result (generated at 2020-09-16).
 
 Technological decisions for this project:
 -

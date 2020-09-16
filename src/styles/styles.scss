@@ -2,6 +2,7 @@
 
 body {
     background: white;
+    font-family: Helvetica, sans-serif‚;
 }
 
 .calculator {
@@ -15,7 +16,7 @@ body {
             width:50%;
             max-width: 320px;
             height: 100%;
-            background: transparent url(/equal-experts-logo-colour.png) center left no-repeat;
+            background: transparent url(./equal-experts-logo-colour.png) center left no-repeat;
             background-size: contain;
         }
     }
