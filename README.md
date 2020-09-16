@@ -7,8 +7,8 @@ Technological decisions for this project:
 -
 - JavaScript (ES 6) has been chosen with no extra framework to really have the least amount of complexity.
 - The JS is processed by Webpack to generate browser agnostic code.
-- SASS is used fas the CSS preprocessor, Webpack also takes care of producing the CSS.
-- For some scaffolding I chose Bootstrap, which is just imported form the final HTML document. 
+- SASS is used as the CSS preprocessor, Webpack also takes care of producing the CSS.
+- For some scaffolding I chose Bootstrap, which is just referenced by the final HTML document. 
 - Testing is performed with Jasmine.
 - Docker helps to encapsulate the build environment and offers a runtime locally for executing tests and see the end result.
 
